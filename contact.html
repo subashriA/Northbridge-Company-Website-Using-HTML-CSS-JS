@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Northbridge Consulting</title>
+  <meta name="description" content="Get in touch with Northbridge Consulting to start your next digital product.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-mark">NB</span>
+        Northbridge
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== CONTACT HERO ===================== -->
+    <section class="contact-hero">
+      <div class="container">
+        <span class="eyebrow">Get In Touch</span>
+        <h1>Let's talk about your next product</h1>
+        <p>Fill out the form below or reach us directly — we typically reply within one business day.</p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT GRID ===================== -->
+    <section class="section">
+      <div class="container contact-grid">
+
+        <!-- Contact info -->
+        <div class="contact-info-card">
+          <h3>Contact Information</h3>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Office Address</h4>
+              <p>128 Harbor View Road, Suite 400<br>Boston, MA 02110, USA</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (617) 555-0148</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@northbridgeconsulting.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕐</div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday – Friday, 9:00 AM – 6:00 PM EST</p>
+            </div>
+          </div>
+
+          <div class="map-placeholder">Map preview — 128 Harbor View Road, Boston, MA</div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form-card">
+          <h3>Send Us a Message</h3>
+          <p>Tell us a bit about your project and we'll follow up shortly.</p>
+
+          <div class="form-success" id="form-success" role="status" aria-live="polite"></div>
+
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required-dot">*</span></label>
+                <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" autocomplete="name">
+                <span class="error-message" id="fullName-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address <span class="required-dot">*</span></label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email">
+                <span class="error-message" id="email-error"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number <span class="required-dot">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" autocomplete="tel">
+              <span class="error-message" id="phone-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span class="required-dot">*</span></label>
+              <textarea id="message" name="message" placeholder="Tell us about your project, timeline, and goals..."></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <span class="brand-mark">NB</span>
+            Northbridge
+          </div>
+          <p style="font-size:0.9rem;">Strategic digital consulting for teams building what's next.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Product Strategy</a></li>
+            <li><a href="services.html">UX &amp; UI Design</a></li>
+            <li><a href="services.html">Web Development</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li>128 Harbor View Road, Suite 400, Boston, MA</li>
+            <li>+1 (617) 555-0148</li>
+            <li>hello@northbridgeconsulting.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Northbridge Consulting. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter">X</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
